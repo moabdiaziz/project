@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Details</title>
+    <link rel="stylesheet" href="roomditails.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <style>
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+  <!-- header -->
+    <header>
+        
+        <div class="logo">
+            <img src="/home/home-imgs/download.png" width="30px" alt="">
+            <div class="logo-h">
+           <h1>Royelle</h1>
+           <p>Lexuray Hotel</p>
+           </div>
+            </div>
+           <ul>
+            <li> <a href="/home/index.html">Home</a></li>
+            <li><a href="/My project - Copy/My project/rooms/rooms.html">Rooms</a></li>
+            <li><a href="/resturent/resturent/resturent.html">Resturent</a></li>
+            <li><a href="/about and acconts/kamaal/About.html">About us</a></li>
+            <li><a href="/about and acconts/kamaal/contect.html">Contact us</a></li>
+           </ul>
+           <div class="buttons">
+ <a href="/booking.corect-all/booking.html"><button>Book Now</button></a>
+           <i id="box-list" class="fa-solid fa-list"></i>
+       <a href="/long.in/long-in-1.html"> <button class="btn-t">long in</button></a>
+           </div>
+          
+    </header>
+<!-- MAIN WRAPPER -->
+<div class="container">
+
+    <!-- PHOTO GALLERY + TITLE -->
+    <div class="gallery-wrapper">
+        <div class="gallery-thumbs">
+            <img src="asset/download.jpg" alt="">
+            <img src="asset/download (1).jpg" alt="">
+            <img src="asset/download (2).jpg" alt="">
+        </div>
+
+        <div class="gallery-main">
+            <img src="asset/Modern Bedroom Looks You Can Recreate (1).jpg" alt="">
+        </div>
+    </div>
+
+    <!-- TITLE + PRICE -->
+    <div class="header-row">
+        <div>
+            <h2>Standard Rooms</h2>
+            <p class="location">Royelle, mogadishu</p>
+            <div class="rating"><i class="fa-solid fa-star"></i> 4.9 (248 Reviews)</div>
+        </div>
+
+        <div class="price-box">
+            <strong>$150</strong> / night
+        </div>
+    </div>
+
+    <!-- LAYOUT GRID: OVERVIEW & BOOKING FORM -->
+    <div class="main-grid">
+
+        <!-- LEFT: OVERVIEW -->
+        <div>
+
+            <h3>Overview</h3>
+            <p>
+                Step into a serene oasis, a contemporary retreat with light wood, soft textures,
+                and lush greenery. Relax and recharge in this tranquil space designed for comfort.
+            </p>
+
+            <h3>Room Amenities</h3>
+
+            <div class="amenities-grid">
+                <span><i class="fa-solid fa-check"></i> Air Conditioning</span>
+                <span><i class="fa-solid fa-check"></i> Wifi</span>
+                <span><i class="fa-solid fa-check"></i> Smart TV</span>
+                <span><i class="fa-solid fa-check"></i> Breakfast</span>
+                <span><i class="fa-solid fa-check"></i> Mini Bar</span>
+                <span><i class="fa-solid fa-check"></i> Safe Box</span>
+                <span><i class="fa-solid fa-check"></i> Room Heater</span>
+                <span><i class="fa-solid fa-check"></i> Workspace</span>
+            </div>
+
+            <h3>Booking Rules</h3>
+            <ul class="rules">
+                <li>Check In: After 1:00 PM</li>
+                <li>Check Out: Before 11:00 AM</li>
+                <li>No Pets Allowed</li>
+                <li>Late Check-Out Allowed</li>
+            </ul>
+
+            <h3>Location</h3>
+            <img src="asset/Screenshot 2025-11-25 213613.png" class="map-img" alt="">
+        </div>
+
+        <!-- RIGHT: BOOKING FORM -->
+        <div class="booking-form">
+            <h3>Book Room</h3>
+
+            <form>
+
+                <label>Your Name</label>
+                <input type="text">
+
+                <label>Phone Number</label>
+                <input type="text">
+
+                <label>Check-In Date</label>
+                <input type="date">
+
+                <label>Check-Out Date</label>
+                <input type="date">
+
+                <label>Adult</label>
+                <select><option>1</option><option>2</option></select>
+
+                <label>Children</label>
+                <select><option>0</option><option>1</option><option>2</option></select>
+
+                <label>Room Type</label>
+                <select><option>Standard</option><option>Deluxe</option></select>
+
+                <label>Number of Rooms</label>
+                <select><option>1</option><option>2</option></select>
+
+                <button type="submit"> <a href="/booking.corect-all/booking.html">Book Now </a></button>
+             
+            </form>
+        </div>
+
+    </div>
+
+    <!-- REVIEWS -->
+    <div class="review-section">
+        <h3>Rating & Reviews</h3>
+
+        <div class="stars-summary">
+            <h1>4.9</h1>
+            <p>out of 5</p>
+        </div>
+
+        <!-- SAMPLE REVIEW -->
+        <div class="review">
+            <div class="review-head">
+                <div class="review-user">
+                    <img src="https://via.placeholder.com/50" alt="">
+                    <div>
+                        <strong>Jenny Wilson</strong>
+                        <span>1 month ago</span>
+                    </div>
+                </div>
+                <div class="review-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <p class="review-text">
+                Impeccable! The room was extremely clean and peaceful.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- SIMILAR ROOMS -->
+    <h3>Explore Similar Rooms</h3>
+
+    <div class="similar-grid">
+        <div class="room-card">
+            <img src="https://via.placeholder.com/350x200" alt="">
+            <h4>Deluxe Rooms</h4>
+            <p>$250 / night</p>
+        </div>
+        <div class="room-card">
+            <img src="https://via.placeholder.com/350x200" alt="">
+            <h4>The Haven Room</h4>
+            <p>$300 / night</p>
+        </div>
+        <div class="room-card">
+            <img src="https://via.placeholder.com/350x200" alt="">
+            <h4>The Executive Deluxe</h4>
+            <p>$450 / night</p>
+        </div>
+    </div>
+
+</div>
+           <footer>
+            <div class="footer-">
+                <!-- section-footer-one -->
+                <div class="in-footer-one">
+                    <div class="footer-logo">
+                         <img src="/home//home-imgs/download.png" width="30px" alt="">
+                   <div class="logo-h">
+                  <h1>Royelle</h1>
+                  <p>Lexuray Hotel</p>
+                    </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, obcaecati dolor? Ratione dolor <br> animi reprehenderit asperiores necessitatibus voluptate, culpa quibusdam!</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-square-snapchat"></i>
+                </div>
+            </div>
+            <!-- section-footer-two -->
+             <div class="in-footer-two">
+                <h1>links</h1>
+                <ul>
+                     <li> <a href="/long.in/long-in-1.html"> long in </a></li>
+                  <li>  <a href="/booking.corect-all/booking.html">booking </a></li>
+                    <li><a href="/home/index.html">Home</a></li>
+                    <li><a href="/My project - Copy/My project/rooms/rooms.html">Rooms & Details</a></li>
+                    <li><a href="/resturent/resturent/resturent.html">Resturent</a></li>
+                    <li><a href="/about and acconts/kamaal/About.html">About us</a></li>
+                    <li><a href="/about and acconts/kamaal/contect.html">Contect us</a></li>
+                    <li><a href="/dashboard chart/dashboard tijaabo/dashboard.html">Dashbord</a></li>
+                </ul>
+             </div>
+             <!-- section-footer-three -->
+              <div class="in-footer-three">
+                <h1>Contect info</h1>
+                <h3>252+616224433</h3>
+                <h3>royalle55@email.com</h3>
+                <h3>.maka-al-mukarmad,streat.hodam.bandir</h3>
+              </div>
+              <!-- section-footer-four -->
+               <div class="in-footer-four">
+                <h1>Get the lastest information</h1>
+                <input  type="email" placeholder="enter your email">
+            <i id="in-footer-icon" class="fa-solid fa-square-envelope"></i>
+
+               </div>
+        </footer>
+
+
+</body>
+</html>
