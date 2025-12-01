@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("/booking.corect-all/home-imgs/hero.jpg") no-repeat center center/cover;
+    flex-wrap: wrap;
+}
+
+/* Container */
+.payment-container {
+    max-width: 430px;
+    margin: 80px auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Text styles */
+.payment-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payment-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Payment Box */
+.payment-box {
+    margin-top: 10px;
+}
+
+/* Inputs */
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Row (Expiry + CVV) */
+.row {
+    display: flex;
+    gap: 20px;
+
+}
+
+.input-group {
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* Button */
+.pay-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(32, 69, 52);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    opacity: 0.85;
+}
+a{
+    color: white;
+    text-underline-offset: none;
+}
+@media (max-width:1000px) {
+    body{
+        height: 77vh;
+    }
+    .payment-container{
+        font-size: 1em;
+        margin-top: 300px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width:500px) {
+      body{
+        height: 77vh;
+    }
+    .payment-container{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        font-size: 0.8em;
+    }
+}
