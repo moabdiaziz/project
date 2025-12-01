@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+video{
+   width: 100%;
+   height: 100vh;
+   margin-top: 0px;
+
+}
+button{
+    position: absolute;
+    padding: 10px 30px ;
+    background-color: rgb(84, 189, 144);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: -100px;
+    margin-top: 30px;
+
+
+}
+body{
+    /* background-color: rgb(58, 132, 108); */
+    background-color: black;
+}
