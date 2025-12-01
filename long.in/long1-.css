@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.contaiener{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 89, 66);
+    color: white;
+}
+.left-stite{
+    margin-top: 50px;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+.left-stite h1{
+    font-size: 4em;
+    padding-bottom: 17px;
+}
+.left-stite p{
+    padding-bottom: 30PX;
+}
+ label{
+    padding-top: 40px;
+    padding-left: 0px;
+ }
+ input{
+ padding: 8px 60px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+
+ }
+.psw{
+    margin-left: -26px;
+ }
+ .sing-in{
+    padding: 7px 87px;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-left: 56px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+ }
+ .her{
+    display: flex;
+    border: none;
+    height: 0;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    gap: 10px;
+
+ }
+ .her hr{
+    width: 150px;
+    height: 0vh;
+    margin-top: 10px;
+ }
+ .her h4{
+    padding-top: -60px;
+    
+ }
+ .down-buttons button{
+    padding: 7px 87px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -40px;
+
+ }
+ .down-buttons i{
+    
+    font-size: 1.6em;
+ }
+ .bnt-dwn-1{
+    background-color: rgb(225, 220, 220);
+    padding: 7px 70px;
+ }
+ #suu{
+    padding-top: 12px;
+    font-size: 2.1em;
+    margin-left: -80px;
+    color: white;
+    position: absolute;
+    display: none;
+   
+ }
+ #suuu{
+    background-color: rgb(69, 73, 73);
+    color: white;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 20px;
+    display: none;
+
+ }
+ .bnt-dwn-1{
+    background-color: rgb(5, 130, 233);
+    margin-left: -35px;
+    padding: 7px 60px;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    display: none;
+ }
+ #fecbook-icon{
+    position: absolute;
+    padding-top: 7px;
+    margin-left: -80px;
+    font-size: 2em;
+    display: none;
+    
+
+ }
+ img{
+    width:600px ;
+    border-radius: 40px;
+ }
+ a{
+   color: white;
+   text-decoration: none;
+ }
+ .fecbook-icon{
+   font-size: 3em;
+   position:absolute ;
+ }
+ h3{
+   padding-left: 20px;
+ }
+ span{
+   color: rgb(215, 154, 74);
+   font-size: 1.2em;
+ }
+
+
+
+
+
+
+ /* phone */
+ @media (max-width: 500px) {
+  
+.contaiener{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 89, 66);
+    color: white;
+}
+.left-stite{
+    margin-top: 50px;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+.left-stite h1{
+    font-size: 4.6em;
+    padding-bottom: 17px;
+    padding-left: 30px;
+}
+.left-stite p{
+    padding-bottom: 30PX;
+}
+ label{
+    padding-top: 40px;
+    padding-left: 0px;
+ }
+ input{
+ padding: 8px 60px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+
+ }
+.psw{
+    margin-left: -26px;
+ }
+ .sing-in{
+    padding: 7px 87px;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-left: 56px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+ }
+ .her{
+    display: flex;
+    border: none;
+    height: 0;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    gap: 10px;
+
+ }
+ .her hr{
+    width: 150px;
+    height: 0vh;
+    margin-top: 10px;
+ }
+ .her h4{
+    padding-top: -60px;
+    
+ }
+ .down-buttons button{
+    padding: 7px 87px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -40px;
+
+ }
+ .down-buttons i{
+    
+    font-size: 1.6em;
+ }
+ .bnt-dwn-1{
+    background-color: rgb(225, 220, 220);
+    padding: 7px 70px;
+ }
+ #suu{
+    padding-top: 12px;
+    font-size: 2.1em;
+    margin-left: -80px;
+    color: white;
+    position: absolute;
+    display: none;
+   
+ }
+ #suuu{
+    background-color: rgb(69, 73, 73);
+    color: white;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 20px;
+    display: none;
+
+ }
+ .bnt-dwn-1{
+    background-color: rgb(5, 130, 233);
+    margin-left: -35px;
+    padding: 7px 60px;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    display: none;
+ }
+ #fecbook-icon{
+    position: absolute;
+    padding-top: 7px;
+    margin-left: -80px;
+    font-size: 2em;
+    display: none;
+    
+
+ }
+ img{
+    width: 100px ;
+    border-radius: 40px;
+ }
+ a{
+   color: white;
+   text-decoration: none;
+ }
+ .fecbook-icon{
+   font-size: 3em;
+   position:absolute ;
+ }
+ h3{
+   padding-left: 20px;
+ }
+ span{
+   color: rgb(215, 154, 74);
+   font-size: 1.2em;
+ }
+
+ }
+
+
+
+
+
+ @media (max-width:1000px) {
+  .contaiener{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 89, 66);
+    color: white;
+}
+.left-stite{
+    margin-top: 50px;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+.left-stite h1{
+    font-size: 4em;
+    padding-bottom: 17px;
+}
+.left-stite p{
+    padding-bottom: 30PX;
+}
+ label{
+    padding-top: 40px;
+    padding-left: 0px;
+ }
+ input{
+ padding: 8px 60px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+
+ }
+.psw{
+    margin-left: -26px;
+ }
+ .sing-in{
+    padding: 7px 87px;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-left: 56px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+ }
+ .her{
+    display: flex;
+    border: none;
+    height: 0;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    gap: 10px;
+
+ }
+ .her hr{
+    width: 150px;
+    height: 0vh;
+    margin-top: 10px;
+ }
+ .her h4{
+    padding-top: -60px;
+    
+ }
+ .down-buttons button{
+    padding: 7px 87px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -40px;
+
+ }
+ .down-buttons i{
+    
+    font-size: 1.6em;
+ }
+ .bnt-dwn-1{
+    background-color: rgb(225, 220, 220);
+    padding: 7px 70px;
+ }
+ #suu{
+    padding-top: 12px;
+    font-size: 2.1em;
+    margin-left: -80px;
+    color: white;
+    position: absolute;
+    display: none;
+   
+ }
+ #suuu{
+    background-color: rgb(69, 73, 73);
+    color: white;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 20px;
+    display: none;
+
+ }
+ .bnt-dwn-1{
+    background-color: rgb(5, 130, 233);
+    margin-left: -35px;
+    padding: 7px 60px;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    display: none;
+ }
+ #fecbook-icon{
+    position: absolute;
+    padding-top: 7px;
+    margin-left: -80px;
+    font-size: 2em;
+    display: none;
+    
+
+ }
+ img{
+    width:600px ;
+    border-radius: 40px;
+    margin-top: 30px;
+ }
+ a{
+   color: white;
+   text-decoration: none;
+ }
+ .fecbook-icon{
+   font-size: 3em;
+   position:absolute ;
+ }
+ h3{
+   padding-left: 20px;
+ }
+ span{
+   color: rgb(215, 154, 74);
+   font-size: 1.2em;
+ }
+
+
+ }
